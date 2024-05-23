@@ -1,0 +1,10 @@
+{
+  "name": "Scrim-s0o45bccn3",
+  "description": "https://v2.scrimba.com/learn-react-c0e/~03",
+  "scripts": {
+    "start": "vite preview -- --outDir ."
+  },
+  "dependencies": {
+    "vite": "^5.2.11"
+  }
+}
