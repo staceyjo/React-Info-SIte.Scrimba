@@ -1,8 +1,9 @@
 {
-  "name": "Scrim-s0o45bccn3",
-  "description": "https://v2.scrimba.com/learn-react-c0e/~03",
+  "name": "Scrim-s01ec4d",
+  "description": "https://v2.scrimba.com/learn-react-c0e/~0c",
   "scripts": {
-    "start": "vite preview -- --outDir ."
+    "start": "vite preview -- --outDir .",
+    "dev": "vite"
   },
   "dependencies": {
     "vite": "^5.2.11"
