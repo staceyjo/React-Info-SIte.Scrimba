@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom";
+
 const navbar = (
   <nav>
     <h1>A list that will work eventually</h1>
