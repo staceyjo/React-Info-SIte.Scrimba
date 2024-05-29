@@ -1,7 +1,5 @@
-#root {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+* {
+  box-sizing: border-box;
 }
 
 html,
@@ -12,25 +10,38 @@ body {
   font-family: "Inter", sans-serif;
   background-color: #f0f2f5;
 }
-.page-container {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
 
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 30px 25px;
+  height: 90px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #21222a;
   margin-bottom: 20px;
 }
 
-.logo {
-  margin-right: 20px;
-  width: 40px;
+nav > h3,
+nav > h4 {
+  margin: 0;
+}
+
+nav > h3 {
+  margin-right: auto;
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+nav > h4 {
+  color: #deebf8;
+  font-weight: 600;
+}
+
+nav > img {
+  height: 30px;
+  margin-right: 7px;
 }
 
 .nav-items {

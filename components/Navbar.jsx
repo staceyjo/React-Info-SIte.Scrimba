@@ -3,9 +3,10 @@ import React from "react";
 export default function Navbar() {
   return (
     <header>
-      <nav className="nav">
-        <img src="./react-logo.png" className="logo" />
-        <h1>Navbar component</h1>
+      <nav>
+        <img src="components/images/react-icon-small.png" />
+        <h3>React Facts</h3>
+        <h4>React Course - Project 1</h4>
         <ul className="nav-items">
           <li>Pricing</li>
           <li>About</li>
